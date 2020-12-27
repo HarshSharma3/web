@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Wingman Partners</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome-free-5.12.1-web/css/all.css">
+    <!-- Montserrat Font Family Url -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <!-- Roboto Font Family Url -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- JQuery Link -->
+    <script src="assets/js/jquery.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Starts From Here -->
+    <div id="navbarData"></div>
+    <!-- Navbar Ends From Here -->
+    <!-- Top Section Starts From Here -->
+    <div id="particles-js"></div>
+    <div class="container-fluid top-section-bg">
+        <div class="container-fluid">
+            <div class="top-section-content">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <img src="/assets/images/wingman_logo_mod@2x.png" class="img-fluid" alt="Logo" />
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h1 id="app" class="py-4 text-left black-color"></h1>
+                        <h5 class="font-weight-bold text-left black-color">Wingman Partners is a single stop shop where
+                            your
+                            perception becomes our
+                            reality.</h5>
+                        <div class="text-left py-3">
+                            <span class="btn-container">
+                                <a href="/pages/contact.html" class="btn btn-primary btn-edit">Contact Us</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Top Section Ends From Here -->
+    <!--About-our-company-Section Starts From here-->
+    <div class="container-fluid about-our-company text-center">
+        <div class="container py-md-5 py-2">
+            <h1 class="text-center mb-0 leadership-top-heading" data-aos="fade-down" data-aos-duration="200">About Our <span
+                    class="secondary-color">Company</span></h1>
+            <span class="center-line" data-aos="fade-down" data-aos-duration="200"></span>
+            <p class="text-justify mt-1" data-aos="fade-down" data-aos-duration="200">Wingman Partners is a software
+                service-oriented
+                organization operating from
+                Noida, India. It was established in Jan 2019 primarily focusing in the cloud domain with
+                3S[Scalability, Security and Savings] model. We bring years of expertise in building cloud and IoT
+                based products from scratch. We help you set the ground rules and build a strong infrastructure
+                accompanied with best practices from early phases of the project. We add enterprise-grade product
+                exposure and help you set your product quality along with the same standards.From choosing the apt
+                technology stack to set the base rules of code quality and code inspection, we help you with all
+                decisions performing necessary proof of concepts, if required.
+            </p>
+            <p class="text-justify" data-aos="fade-down" data-aos-duration="200">
+                Designing the infrastructure, right-sizing, application development, stress testing, web test
+                automation,
+                security analysis on infrastructure and code, cost optimization and scalability planning are few other
+                fields of our expertise. Apart from setting the operations, we also provide maintenance services to
+                perform
+                constant monitoring and alert configurations on your environments to ensure awareness about the
+                anomalies
+                being detected on your system. Establishing NOC team for your product is part of our portfolio. We
+                ensure
+                the right education and guidelines to members enlightening them on the importance of code and
+                infrastructure
+                security.
+            </p>
+        </div>
+    </div>
+    <!-- About-our-company-Section Ends From here-->
+    <!-- What-We-Do-Section-Starts From Here -->
+    <div class="container-fluid gray-bg-color text-center">
+        <div class="container py-md-5 py-2">
+            <h1 class="text-center mb-0" data-aos="fade-down" data-aos-duration="200">What<span class="secondary-color">
+                    We Do</span></h1>
+            <span class="center-line" data-aos="fade-down" data-aos-duration="200"></span>
+            <p data-aos="fade-down" data-aos-duration="200">We assist our clients across the following core pillars but
+                not limited to.</p>
+            <div class="row" data-aos="fade-down" data-aos-duration="200">
+                <div class="col-md-4 mt-3" data-aos="fade-down">
+                    <div class="text-center">
+                        <img src="/assets/images/services-icons/cloud services.png" height="40" alt="Cloud Services">
+                        <h5 class="py-2"><span class="secondary-color">Cloud Services</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light text-left">Cloud Consulting Services</li>
+                        <li class="font-weight-light text-left">Cloud Infrastructure and Security</li>
+                        <li class="font-weight-light text-left"> Data Management and Backup Solutions</li>
+                        <li class="font-weight-light text-left">Cloud Hosting Services</li>
+                        <li class="font-weight-light text-left">Cloud Migration Services</li>
+                        <li class="font-weight-light text-left"> Log Management and Monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="200">
+                    <div class="text-center">
+                        <img src="/assets/images/services-icons/Devops.png" height="40" alt="DevOps">
+                        <h5 class="py-2"><span class="secondary-color">DevOp</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light text-left"> DevOps Support</h1>
+                        <li class="font-weight-light text-left">DevOps Consulting</li>
+                        <li class="font-weight-light text-left"> Managed DevOps Services</li>
+                        <li class="font-weight-light text-left">Continuous Auditing</li>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="200">
+                    <div class="text-center">
+                        <img src="/assets/images/c-cd.jpg" height="40" alt="CICD">
+                        <h5 class="py-2"><span class="secondary-color">CI/CD</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light text-left"> Continuous Integration (CI) implementation</li>
+                        <li class="font-weight-light text-left"> Continuous Delivery (CD) implementation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="200">
+                    <div class="text-center">
+                        <img src="/assets/images/services-icons/Container Orch.png" height="40"
+                            alt="Container Orchestration">
+                        <h5 class="py-2"><span class="secondary-color">Container Orchestration</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light text-left">Container Management Services</li>
+                        <li class="font-weight-light text-left">Elastic Container Services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="200">
+                    <div class="text-center">
+                        <img src="/assets/images/services-icons/web app develop,ment.png" height="40"
+                            alt="Web App Development">
+                        <h5 class="py-2"><span class="secondary-color">Web App Development</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light text-left"> Enterprise web building</li>
+                        <li class="font-weight-light text-left"> Progressive Website designing</li>
+                        <li class="font-weight-light text-left">e-Commerce Web development</li>
+                        <li class="font-weight-light text-left">Public-Facing Portals</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="200">
+                    <div class="text-center">
+                        <img src="/assets/images/services-icons/mobile app development.png" height="40"
+                            alt="MObile App Development">
+                        <h5 class="py-2"><span class="secondary-color">Mobile App Development</span></h5>
+                        <ul class="what-we-do-list">
+                        <li class="font-weight-light  text-left"> Hybrid Application Development</li>
+                        <li class="font-weight-light text-left"> React Native</li>
+                        <li class="font-weight-light text-left"> IOS App Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="text-center my-md-5 my-3" data-aos="fade-down">
+                    <span class="btn-container">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-edit">See More Services</a>
+                    </span>
+                </div> -->
+        </div>
+    </div>
+    <!-- What-We-Do-Section Ends From Here -->
+    <!-- Why-choose-us-Section Starts From Here -->
+    <div class="container-fluid text-center">
+        <div class="container py-md-5 py-2">
+            <h1 class="text-center mb-0" data-aos="fade-down" data-aos-duration="200">Why <span
+                    class="secondary-color">Choose Us</span></h2>
+                <span class="center-line" data-aos="fade-down" data-aos-duration="200"></span>
+                <div class="row-edit">
+                    <div class="col-edit pt-2" data-aos="fade-down" data-aos-duration="200">
+                        <img src="assets/images/customization.png" class="img-fluid" alt="easily customization" />
+                        <div class="text-center">
+                            <img src="assets/images/connectivity.png" class="img-fluid"
+                                alt="connectivity" /><br /><br />
+                            <i class="far fa-check-circle secondary-color fa-2x"></i>
+                            <h6 class="font-weight-bold mb-0 py-3">Easily Customization</h6>
+                            <p class="px-s-2 text-justify">
+                                Our unique competence in various technologies enables us to deliver integrated,
+                                scalable,
+                                robust solutions. We constantly conduct research on new technology products to meet the
+ ever-growing needs of our customers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-edit pt-2" data-aos="fade-down" data-aos-duration="200">
+                        <img src="assets/images/excellence.png" class="img-fluid" alt="excellence" />
+                        <div class="text-center">
+                            <img src="assets/images/connectivity.png" class="img-fluid"
+                                alt="connectivity" /><br /><br />
+                            <i class="far fa-check-circle secondary-color fa-2x"></i>
+                            <h6 class="font-weight-bold mb-0 py-3">Standard of Excellence</h6>
+                            <p class="px-s-2 text-justify">
+                                Our dedicated quality assurance team monitors project activities at all development
+                                phases and ensures defect prevention, project risk mitigation and high quality results.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-edit pt-2" data-aos="fade-down" data-aos-duration="200">
+                        <img src="assets/images/cost.png" class="img-fluid" alt="cost effective" />
+                        <div class="text-center">
+                            <img src="assets/images/connectivity.png" class="img-fluid"
+                                alt="connectivity" /><br /><br />
+                            <i class="far fa-check-circle secondary-color fa-2x"></i>
+                            <h6 class="font-weight-bold mb-0 py-3">Cost Optimization</h6>
+                            <p class="px-s-2 text-justify">
+                                We offer high-end services at competitive rates. Our business model and project
+                                collaboration setup allow us to keep our rates surprisingly affordable and
+                                cost-effective
+                                for the quality of service our customers receive.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-edit pt-2" data-aos="fade-down" data-aos-duration="200">
+                        <img src="assets/images/teamwork.png" class="img-fluid" alt="Team Work" />
+                        <div class="text-center">
+                            <img src="assets/images/connectivity.png" class="img-fluid"
+                                alt="connectivity" /><br /><br />
+                            <i class="far fa-check-circle secondary-color fa-2x"></i>
+                            <h6 class="font-weight-bold mb-0 py-3">Team Work</h6>
+                            <p class="px-s-2 text-justify">
+                                Team understands the client requirements and is committed to attaining them.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-edit pt-2" data-aos="fade-down" data-aos-duration="200">
+                        <img src="assets/images/commitment.png" class="img-fluid" alt="Commitment to Work" />
+                        <div class="text-center">
+                            <img src="assets/images/connectivity.png" class="img-fluid"
+                                alt="connectivity" /><br /><br />
+                            <i class="far fa-check-circle secondary-color fa-2x"></i>
+                            <h6 class="font-weight-bold mb-0 py-3">Commitment to Work</h6>
+                            <p class="px-s-2 text-justify">
+                                We have extremely talented technical team who are multi skilled and consistently able to
+                                deliver the projects on time. We assure you the best team assigned to your projects who
+                                understand the breadth and depth of technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- Why-choose-us-Section Ends Here -->
+    <!-- Let-Discuss-our-project-Section Start From Here -->
+    <div class="container-fluid gray-bg-color text-center">
+        <div class="container py-md-5 py-2">
+            <h1 class="text-center mb-0" data-aos="fade-down" data-aos-duration="200">Let's Discuss <span
+                    class="secondary-color">Your Project</span>
+            </h1>
+            <span class="center-line" data-aos="fade-down" data-aos-duration="200"></span>
+            <p data-aos="fade-down" data-aos-duration="200">
+                Please fill the form below and we’ll get back to you in no time to discuss your project and estimates.
+            </p>
+            <form method="POST" id="formSubmit">
+                <div class="row" data-aos="fade-down" data-aos-duration="200">
+                    <div class="col-md-5 py-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control project-form" id="name" placeholder="Enter Name"
+                                aria-describedby="nameHelp" required>
+                        </div>
+                    </div>
+                    <div class="col-md-5 py-3">
+                        <div class="form-group">
+                            <input type="email" class="form-control project-form" id="email" placeholder="Enter Email"
+                                aria-describedby="emailHelp" required>
+                        </div>
+                    </div>
+                    <div class="col-md-2 py-3 text-md-left text-center">
+                        <span class="btn-container">
+                            <a href="javascript:void(0)">
+                                <button type="button" id="submit" class="btn btn-primary btn-edit">Submit</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Let-Discuss-our-project-Section Start From Here -->
+    <!-- Testimonials-Section Starts From Here -->
+    <div class="container-fluid">
+        <div class="container text-center pt-md-5 pt-2" data-aos="fade-down" data-aos-duration="200">
+            <h1>Our Clients' <span class="secondary-color">Feedbacks</span></h1>
+            <span class="center-line" data-aos="fade-down" data-aos-duration="200"></span>
+            <p data-aos="fade-down" data-aos-duration="200">
+                We value your feedback.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container text-center">
+            <div class="row shadow-client-box mb-4">
+                <div class="col-sm-4">
+                    <div class="carousel-inner pt-4 mt-3 mb-3 client-image" data-aos="zoom-in" data-aos-duration="true">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"
+                            data-pause="false">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/clientsavatarfour.webp"
+                                    class=" rounded-circle img-carousel client-img-design" alt="Founder-image"
+                                    data-aos="zoom-in">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/rex.png"
+                                    class=" rounded-circle img-carousel client-img-design" alt="Founder-image"
+                                    data-aos="zoom-in">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/eric.png"
+                                    class=" rounded-circle img-carousel client-img-design" alt="Founder-image"
+                                    data-aos="zoom-in">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="button client-radio-btn mt-4" data-aos="fade-down" data-aos-duration="200"
+                        data-pause="false">
+                        <i class="fas fa-arrow-left custom-next custom-button"></i>
+                        <i class="fas fa-arrow-right custom-prev ml-4 custom-button"></i>
+                        <div id="carouselExampleSlidesOnly" class="carousel slide pb-md-5 pb-2" data-ride="carousel">
+                            <div class="carousel-inner pt-4">
+                                <div class="carousel-item active">
+                                    <p class="black-color font-weight-light client-review text-justify"><i
+                                            class="fas fa-quote-left"></i>The attention is fabulous and
+                                        the staff is superb. In a
+                                        matter of days I had a tremendous proposal, above and beyond our expectations.
+                                        We
+                                        could
+                                        not
+                                        have picked a better team of professionals to represent us. They are and will
+                                        remain
+                                        my
+                                        "web
+                                        guys" in the future to come.<i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <h5 class="secondary-color client-name">Kapil Gupta</h5>
+                                    <h6 class="yellow-color client-name">@ Warrantee Wise</h6>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="black-color font-weight-light client-review text-justify"><i
+                                            class="fas fa-quote-left"></i>Wingman Partners is a trustworthy,
+                                        knowledgeable, and adaptable development partner. Their main strength lies in
+                                        their focus on clear communication and quality. They also know how to push back
+                                        and ask questions when appropriate, which provides added value. They are
+                                        extremely responsive, proactive and are creative thinkers.<i
+                                            class="fas fa-quote-right"></i>
+                                    </p>
+                                    <h5 class="secondary-color client-name">Rex Pugh</h5>
+                                    <a href="https://www.coboinc.com/"><h6 class="yellow-color client-name">@ COBO</h6></a>
+
+                                </div>
+                                <div class="carousel-item">
+                                        <p class="black-color font-weight-light client-review text-justify"><i
+                                                class="fas fa-quote-left"></i>Wingman has been a great business partner,
+                                            providing quality development resources to augment a high-performing and
+                                            fast-moving development team. They have provided critical counsel that has
+                                            guided the whole project. This level of commitment is remarkable and hard to
+                                            come by. The professional support and attention to the relationship have
+                                            been excellent and I would highly recommend them<i
+                                                class="fas fa-quote-right"></i>
+                                        </p>
+                                        <h5 class="secondary-color client-name">Eric Clelland</h5>
+                                       <a href="https://www.coboinc.com/"><h6 class="yellow-color client-name">@ COBO</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BLOGS-Section Ends Here-->
+    <!-- Footer Starts From Here -->
+    <div id="footerData"></div>
+    <!-- Footer Ends From Here -->
+    <!-- JS Links starts from Here-->
+    <script src="assets/lib/typewriter.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/aos-master/dist/aos.js"></script>
+    <script src="assets/lib/fontawesome-free-5.12.1-web/js/all.js"></script>
+    <script src="assets/js/site.js"></script>
+    <!-- JS Links Ends form Here -->
+    <!-- Particles link Starts From Here -->
+    <script src="assets/js/app.js" defer="defer"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            delay: 0.02,
+        });
+    </script>
+    <script>
+        $("#submit").click(function () {
+            var xhr = new XMLHttpRequest();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            if (email == "") {
+                document.getElementById("email").style.borderColor = "red";
+            }
+            if (name == '') {
+                document.getElementById("name").style.borderColor = "red";
+            }
+            if (email != "" && name != "") {
+                xhr.open('POST', 'http://cors-anywhere.herokuapp.com/https://0hzzmb0kc5.execute-api.us-east-2.amazonaws.com/dev/sendmail');
+                xhr.onreadystatechange = function (event) {
+                    if (event.target.response) {
+                        document.getElementById("formSubmit").reset();
+                    }
+                }
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify({
+                    "name": name,
+                    "email": email,
+                    "message": 'Hi'
+                }));
+            }
+        });
+    </script>
+    <!-- Particles link Ends From Here -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000,
+            pause: false,
+        })
+    </script>
+</body>
+
+</html>
